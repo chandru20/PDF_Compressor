@@ -1,0 +1,12 @@
+# PDF Compressor Requirements
+# Install with: pip3 install -r requirements_pdf.txt
+
+# Core PDF processing library (choose one)
+PyPDF2>=3.0.0
+# OR pypdf>=3.0.0 (alternative to PyPDF2)
+
+# Image processing for advanced compression
+Pillow>=9.0.0
+
+# Optional: For command line argument parsing (usually included with Python)
+# argparse is part of standard library since Python 2.7+
